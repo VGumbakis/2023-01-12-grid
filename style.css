@@ -1,0 +1,742 @@
+.wrapper {
+    display: grid;
+    grid-template: reapeat(4, 1fr) / repeat(5, 1fr);
+}
+
+.container {
+    display: grid;
+    width: 600px;
+    height: 600px;
+    background-color: grey;
+    margin-bottom: 30px;
+}
+
+.container1 {
+    display: grid;
+    grid-template-areas: 
+    "child1 child2 child2"
+    "child3 child3 child4"
+    "child5 child6 child6";
+}
+
+.container1 .child1{
+    grid-area: child1;
+    background-color: red;
+}
+
+.container1 .child2{
+    grid-area: child2;
+    background-color: green;
+}
+
+.container1 .child3{
+    grid-area: child3;
+    background-color: blue;
+}
+
+.container1 .child4{
+    grid-area: child4;
+    background-color: pink;
+}
+
+.container1 .child5{
+    grid-area: child5;
+    background-color: teal;
+}
+
+.container1 .child6{
+    grid-area: child6;
+    background-color: brown;
+}
+
+
+.container2 {
+    display: grid;
+    grid-template-areas: 
+    "child1 child2 child3"
+    "child4 child2 child5"
+    "child4 child6 child5";
+}
+
+.container2 .child1{
+    grid-area: child1;
+    background-color: red;
+}
+
+.container2 .child2{
+    grid-area: child2;
+    background-color: green;
+}
+
+.container2 .child3{
+    grid-area: child3;
+    background-color: blue;
+}
+
+.container2 .child4{
+    grid-area: child4;
+    background-color: pink;
+}
+
+.container2 .child5{
+    grid-area: child5;
+    background-color: teal;
+}
+
+.container2 .child6{
+    grid-area: child6;
+    background-color: brown;
+}
+
+.container3 {
+    display: grid;
+    grid-template-areas: 
+    "child1 child1 child2"
+    "child1 child1 child3"
+    "child4 child5 child6";
+}
+
+.container3 .child1{
+    grid-area: child1;
+    background-color: red;
+}
+
+.container3 .child2{
+    grid-area: child2;
+    background-color: green;
+}
+
+.container3 .child3{
+    grid-area: child3;
+    background-color: blue;
+}
+
+.container3 .child4{
+    grid-area: child4;
+    background-color: pink;
+}
+
+.container3 .child5{
+    grid-area: child5;
+    background-color: teal;
+}
+
+.container3 .child6{
+    grid-area: child6;
+    background-color: brown;
+}
+
+.inner-container-4-1{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+.inner-container-4-2{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+
+.container5 {
+    display: grid;
+    grid-template-areas: 
+    "child1 child1 child2 child2 child2 child2"
+    "child1 child1 child2 child2 child2 child2"
+    "child3 child3 child4 child5 child6 child6"
+    "child3 child3 child7 child8 child6 child6"
+    "child9 child9 child9 child9 child10 child10"
+    "child9 child9 child9 child9 child10 child10";
+}
+
+.container5 .child1{
+    grid-area: child1;
+    background-color: red;
+}
+
+.container5 .child2{
+    grid-area: child2;
+    background-color: green;
+}
+
+.container5 .child3{
+    grid-area: child3;
+    background-color: blue;
+}
+
+.container5 .child4{
+    grid-area: child4;
+    background-color: pink;
+}
+
+.container5 .child5{
+    grid-area: child5;
+    background-color: teal;
+}
+
+.container5 .child6{
+    grid-area: child6;
+    background-color: red;
+}
+
+.container5 .child7{
+    grid-area: child7;
+    background-color: green;
+}
+
+.container5 .child8{
+    grid-area: child8;
+    background-color: blue;
+}
+
+.container5 .child9{
+    grid-area: child9;
+    background-color: pink;
+}
+
+.container5 .child10{
+    grid-area: child10;
+    background-color: teal;
+}
+
+
+.container6 {
+    display: grid;
+    grid-template-areas: 
+    "child1 child1 child1 child1 child1 child1"
+    "child1 child1 child1 child1 child1 child1"
+    "child2 child3 child4 child4 child5 child5"
+    "child6 child6 child4 child4 child5 child5";
+}
+
+.container6 .child1{
+    grid-area: child1;
+    background-color: red;
+}
+
+.container6 .child2{
+    grid-area: child2;
+    background-color: green;
+}
+
+.container6 .child3{
+    grid-area: child3;
+    background-color: blue;
+}
+
+.container6 .child4{
+    grid-area: child4;
+    background-color: pink;
+}
+
+.container6 .child5{
+    grid-area: child5;
+    background-color: teal;
+}
+
+.container6 .child6{
+    grid-area: child6;
+    background-color: brown;
+}
+
+.container7 {
+    display: grid;
+    grid-template-areas: 
+    "child1 child1 child1 child2"
+    "child1 child1 child1 child3"
+    "child4 child5 child5 child5"
+    "child6 child5 child5 child5";
+}
+
+.container7 .child1{
+    grid-area: child1;
+    background-color: red;
+}
+
+.container7 .child2{
+    grid-area: child2;
+    background-color: green;
+}
+
+.container7 .child3{
+    grid-area: child3;
+    background-color: blue;
+}
+
+.container7 .child4{
+    grid-area: child4;
+    background-color: pink;
+}
+
+.container7 .child5{
+    grid-area: child5;
+    background-color: teal;
+}
+
+.container7 .child6{
+    grid-area: child6;
+    background-color: brown;
+}
+
+.container8 {
+    display: grid;
+    grid-template-areas: 
+    "child1 child1 child1"
+    "child1 child1 child1"
+    "child2 child3 child4"
+    "child5 child3 child6";
+}
+
+.container8 .child1{
+    grid-area: child1;
+    background-color: red;
+}
+
+.container8 .child2{
+    grid-area: child2;
+    background-color: green;
+}
+
+.container8 .child3{
+    grid-area: child3;
+    background-color: blue;
+}
+
+.container8 .child4{
+    grid-area: child4;
+    background-color: pink;
+}
+
+.container8 .child5{
+    grid-area: child5;
+    background-color: teal;
+}
+
+.container8 .child6{
+    grid-area: child6;
+    background-color: brown;
+}
+
+.container9 {
+    grid-template: repeat(6, 1fr) / repeat(5, 1fr);
+}
+
+.container9 .child:nth-child(1) {
+    grid-area: span 3 / span 2;
+}
+
+.container9 .child:nth-child(4) {
+    grid-area: span 3 / span 3;
+}
+
+.container9 .child:nth-child(7) {
+    grid-area: span 2 / span 2;
+}
+
+.container9 .child:nth-child(8) {
+    grid-area: span 2 / span 2;
+}
+
+.container10 {
+    grid-template: repeat(6, 1fr) / repeat(6, 1fr);
+}
+
+.container10 .child:nth-child(1),
+.container10 .child:nth-child(7),
+.container10 .child:nth-child(9){
+    grid-area: span 2 / span 3;
+}
+
+.container10 .child:nth-child(3),
+.container10 .child:nth-child(5),
+.container10 .child:nth-child(11){
+    grid-area: span 2 / span 2;
+}
+
+.container11 {
+    grid-template: repeat(5, 1fr) / repeat(5, 1fr);
+}
+
+.container11 .child:nth-child(1) {
+    grid-area: span 4 / span 5;
+}
+
+.container12 {
+    display: grid;
+    grid-template-areas: 
+    "child1 child2 child3 child4 child5 child6";
+}
+
+.container12 .child1{
+    grid-area: child1;
+    background-color: red;
+}
+
+.container12 .child2{
+    grid-area: child2;
+    background-color: green;
+}
+
+.container12 .child3{
+    grid-area: child3;
+    background-color: blue;
+}
+
+.container12 .child4{
+    grid-area: child4;
+    background-color: pink;
+}
+
+.container12 .child5{
+    grid-area: child5;
+    background-color: teal;
+}
+
+.container12 .child6{
+    grid-area: child6;
+    background-color: brown;
+}
+
+.container13 {
+    display: grid;
+    grid-template-areas: 
+    "child1"
+    "child2"
+    "child3"
+    "child4"
+    "child5"
+    "child6";
+}
+
+.container13 .child1{
+    grid-area: child1;
+    background-color: red;
+}
+
+.container13 .child2{
+    grid-area: child2;
+    background-color: green;
+}
+
+.container13 .child3{
+    grid-area: child3;
+    background-color: blue;
+}
+
+.container13 .child4{
+    grid-area: child4;
+    background-color: pink;
+}
+
+.container13 .child5{
+    grid-area: child5;
+    background-color: teal;
+}
+
+.container13 .child6{
+    grid-area: child6;
+    background-color: brown;
+}
+
+.container14 {
+    grid-template: repeat(6, 1fr) / repeat(4, 1fr);
+}
+
+.container14 .child:nth-child(3),
+.container14 .child:nth-child(8) {
+    grid-row: span 3;
+}
+
+.container14 .child:nth-child(5) {
+    grid-area: span 2 / span 2;
+}
+
+.container14 .child:nth-child(10) {
+    grid-area: span 3 / span 2;
+}
+
+.container16 {
+    display: grid;
+    grid-template-areas: 
+    "child1 child1 child1 child1"
+    "child1 child1 child1 child1"
+    "child2 child2 child2 child2"
+    "child2 child2 child2 child2"
+    "child3 child4 child5 child6"
+    "child3 child7 child5 child8";
+}
+
+.container16 .child1{
+    grid-area: child1;
+    background-color: red;
+}
+
+.container16 .child2{
+    grid-area: child2;
+    background-color: green;
+}
+
+.container16 .child3{
+    grid-area: child3;
+    background-color: blue;
+}
+
+.container16 .child4{
+    grid-area: child4;
+    background-color: pink;
+}
+
+.container16 .child5{
+    grid-area: child5;
+    background-color: teal;
+}
+
+.container16 .child6{
+    grid-area: child6;
+    background-color: brown;
+}
+
+.container16 .child7{
+    grid-area: child7;
+    background-color: olive;
+}
+
+.container16 .child8{
+    grid-area: child8;
+    background-color: black;
+}
+
+.container17 {
+    display: grid;
+    grid-template-areas: 
+    "child1 child1 child2 child2"
+    "child1 child1 child3 child4"
+    "child1 child1 child5 child5"
+    "child1 child1 child6 child7";
+}
+
+.container17 .child1{
+    grid-area: child1;
+    background-color: red;
+}
+
+.container17 .child2{
+    grid-area: child2;
+    background-color: green;
+}
+
+.container17 .child3{
+    grid-area: child3;
+    background-color: blue;
+}
+
+.container17 .child4{
+    grid-area: child4;
+    background-color: pink;
+}
+
+.container17 .child5{
+    grid-area: child5;
+    background-color: teal;
+}
+
+.container17 .child6{
+    grid-area: child6;
+    background-color: brown;
+}
+
+.container17 .child7{
+    grid-area: child7;
+    background-color: black;
+}
+
+.container18 {
+    display: grid;
+    grid-template-areas: 
+    "child1 child2 child3"
+    "child1 child2 child3"
+    "child4 child2 child5"
+    "child4 child6 child5"
+    "child7 child6 child8"
+    "child7 child6 child8";
+}
+
+.container18 .child1{
+    grid-area: child1;
+    background-color: red;
+}
+
+.container18 .child2{
+    grid-area: child2;
+    background-color: green;
+}
+
+.container18 .child3{
+    grid-area: child3;
+    background-color: blue;
+}
+
+.container18 .child4{
+    grid-area: child4;
+    background-color: pink;
+}
+
+.container18 .child5{
+    grid-area: child5;
+    background-color: teal;
+}
+
+.container18 .child6{
+    grid-area: child6;
+    background-color: brown;
+}
+
+.container18 .child7{
+    grid-area: child7;
+    background-color: olive;
+}
+
+.container18 .child8{
+    grid-area: child8;
+    background-color: black;
+}
+
+.container19 {
+    display: grid;
+    grid-template-areas: 
+    "child1 child1 child1 child1 child2 child2"
+    "child1 child1 child1 child1 child2 child2"
+    "child1 child1 child1 child1 child3 child4"
+    "child1 child1 child1 child1 child5 child6"
+    "child7 child7 child8 child9 child10 child10"
+    "child7 child7 child11 child12 child10 child10";
+}
+
+.container19 .child1{
+    grid-area: child1;
+    background-color: red;
+}
+
+.container19 .child2{
+    grid-area: child2;
+    background-color: green;
+}
+
+.container19 .child3{
+    grid-area: child3;
+    background-color: blue;
+}
+
+.container19 .child4{
+    grid-area: child4;
+    background-color: pink;
+}
+
+.container19 .child5{
+    grid-area: child5;
+    background-color: teal;
+}
+
+.container19 .child6{
+    grid-area: child6;
+    background-color: aqua;
+}
+
+.container19 .child7{
+    grid-area: child7;
+    background-color: olive;
+}
+
+.container19 .child8{
+    grid-area: child8;
+    background-color: pink;
+}
+
+.container19 .child9{
+    grid-area: child9;
+    background-color: teal;
+}
+
+.container19 .child10{
+    grid-area: child10;
+    background-color: brown;
+}
+
+.container19 .child11{
+    grid-area: child11;
+    background-color: orange;
+}
+
+.container19 .child12{
+    grid-area: child12;
+    background-color: black;
+}
+
+.container20 {
+    display: grid;
+    /* grid-template-rows: 8% auto 10%;
+    grid-template-columns: 35% 35% 5% 25%; */
+    grid-template-areas: 
+    "child1 child2 child3 child4"
+    "child5 child6 child7 child8"
+    "child9 child10 child11 child12";
+}
+
+.container20 .child1{
+    grid-area: child1;
+    background-color: red;
+}
+
+.container20 .child2{
+    grid-area: child2;
+    background-color: green;
+}
+
+.container20 .child3{
+    grid-area: child3;
+    background-color: blue;
+}
+
+.container20 .child4{
+    grid-area: child4;
+    background-color: pink;
+}
+
+.container20 .child5{
+    grid-area: child5;
+    background-color: brown;
+}
+
+.container20 .child6{
+    grid-area: child6;
+    background-color: black;
+}
+
+.container20 .child7{
+    grid-area: child7;
+    background-color: teal;
+}
+
+.container20 .child8{
+    grid-area: child8;
+    background-color: orange;
+}
+
+.container20 .child9{
+    grid-area: child9;
+    background-color: olive;
+}
+
+.container20 .child10{
+    grid-area: child10;
+    background-color: violet;
+}
+
+.container20 .child11{
+    grid-area: child11;
+    background-color: yellow;
+}
+
+.container20 .child12{
+    grid-area: child12;
+    background-color: aqua;
+}
